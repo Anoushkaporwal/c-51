@@ -1,0 +1,68 @@
+h1{
+    color:rgba(66, 99, 60, 0.651);
+    margin-left:100px;
+    border:solid;
+}
+
+.header{
+    background-color: rgba(241, 131, 223, 0.815);
+    display:flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color:forestgreen;
+    margin-left: 30px;
+}
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color:paleturquoise;
+}
+.items{
+    background-color:palevioletred;
+    
+}
+.icons{
+    display:flex;
+    justify-content:flex-end;
+
+}
+p,h2{
+    text-align: center;
+}
+body{
+    background-color:slateblue;
+}
+
+a:link{
+    color:deepskyblue;
+}
+
+a:visited{
+    color:fuchsia;
+}
+
+.menu a{
+    margin-left:50px;
+}
+
+.items{
+    position:relative;
+}
+
+.items p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.items:hover p{
+    opacity:1;
+}
+
+.items:hover img{
+    opacity:0.2;
+}
